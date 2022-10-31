@@ -1,0 +1,21 @@
+{
+  "name": "type_challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./src/index.js\"",
+    "start": "npx nodemon src/index.ts",
+    "test": "npx nodemon test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^5.0.3",
+    "tslib": "^2.4.0"
+  }
+}
